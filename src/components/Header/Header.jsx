@@ -2,7 +2,7 @@ import React from 'react';
 
 import styled from 'styled-components';
 
-import HeaderIMG from '../data/images/header1.gif';
+import HeaderIMG from '../data/images/header1.png';
 
 const Wrapper = styled.div`
   display: flex;

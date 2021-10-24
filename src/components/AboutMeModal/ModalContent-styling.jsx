@@ -1,8 +1,8 @@
 import styled, { keyframes } from 'styled-components';
 
 export const AnimationShow = keyframes`
-    0% {top: -40em;}
-    100% {top: 7em;}
+    0% {top: -150vh;}
+    100% {top: 15vh;}
 `;
 
 export const AnimationButton = keyframes`
@@ -13,7 +13,7 @@ export const AnimationButton = keyframes`
 
 export const ContentWrapper = styled.div`
   position: fixed;
-  top: 16%;
+  top: 15vh;
   left: 10%;
   overflow: hidden;
   width: 80%;

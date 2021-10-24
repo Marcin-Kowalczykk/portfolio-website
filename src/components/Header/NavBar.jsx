@@ -43,11 +43,13 @@ const NavBar = ({ onShowModal }) => {
       {windowWitdh < 700 && isClicked && (
         <Section isExpand={isClicked}>
           <Ul isExpand={isClicked}>
-            <LiText>
+            <LiText isExpand={isClicked}>
               <Link href="#HomeArea">Strona Główna</Link>
             </LiText>
-            <LiText onClick={onShowModal}>O mnie</LiText>
-            <LiText>
+            <LiText onClick={onShowModal} isExpand={isClicked}>
+              O mnie
+            </LiText>
+            <LiText isExpand={isClicked}>
               <Link href="#ProjectsArea">Projekty</Link>
             </LiText>
           </Ul>

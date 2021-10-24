@@ -26,7 +26,7 @@ const animationNavReverse = keyframes`
   }
 
   100% {
-    padding: 0;
+    padding: 1em;
   }
 `;
 
@@ -55,9 +55,10 @@ export const Navigation = styled.div`
   flex-direction: ${(props) => (props.isExpand ? 'column' : 'row')};
   animation-name: ${(props) =>
     props.isExpand ? animationNav : animationNavReverse};
-  animation-duration: 1500ms;
+  animation-duration: 1000ms;
   justify-content: space-between;
   align-items: center;
+  padding: 1em;
   background: #f1f1f3;
   position: fixed;
   top: 0;
@@ -69,7 +70,7 @@ export const Navigation = styled.div`
 export const H2Name = styled.h2`
   font-size: 2em;
   color: #1b1a1aba;
-  margin-left: 1em;
+  margin: 0 0 0.2em 0;
 
   @media (max-width: 720px) {
     font-size: 1em;
@@ -79,7 +80,6 @@ export const H2Name = styled.h2`
 export const Section = styled.section`
   display: flex;
   flex-direction: ${(props) => (props.isExpand ? 'column' : 'raw')};
-  justify-content: space-around;
 `;
 
 export const Ul = styled.ul`
@@ -89,17 +89,18 @@ export const Ul = styled.ul`
   margin-right: ${(props) => (props.isExpand ? '2.5em' : '0')};
   margin-bottom: 0;
   animation-name: ${(props) => (props.isExpand ? animationList : null)};
-  animation-duration: 3000ms;
+  animation-duration: 2000ms;
   list-style: none;
+  margin: 0 2.5em 0 0;
 `;
 
 export const Icons = styled(Ul)`
   flex-direction: ${(props) => (props.isExpand ? 'row' : 'column')};
-  margin: 0.5em 2.5em 0.5em 0;
+  margin: 0.2em 0 0 0.8em;
 `;
 
 export const Li = styled.li`
-  margin: 0.5em;
+  margin: 0.3em;
   cursor: pointer;
   font-size: 1.5em;
 
@@ -109,8 +110,7 @@ export const Li = styled.li`
 `;
 
 export const LiText = styled(Li)`
-  border-bottom: 1px solid #c0c0c0;
-  padding: 5px;
+  border-bottom: ${(props) => (props.isExpand ? 'none' : '1px solid #c0c0c0')};
   color: #4b444488;
   transition: color 500ms linear, background 500ms linear, border-radius 500ms linear;
 
@@ -140,10 +140,10 @@ export const ExpandIcon = styled.div`
   margin-right: ${(props) => (props.isExpand ? '0' : '1em')};
   font-size: 1.5em;
   cursor: pointer;
-  animation-name: ${(props) => (!props.isExpand ? rotate : '0')};
+  animation-name: ${(props) => (!props.isExpand ? rotate : null)};
   animation-duration: infinite;
-  animation-name: ${(props) => (props.isExpand ? animationIcon : '0')};
-  animation-duration: 3000ms;
+  animation-name: ${(props) => (props.isExpand ? animationIcon : null)};
+  animation-duration: 2000ms;
   transition: font-size 1000ms ease-in;
 
   &:hover {

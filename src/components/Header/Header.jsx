@@ -24,15 +24,15 @@ const Wrapper = styled.div`
   }
 `;
 
-const H1 = styled.h1`
-  margin: 5em 0 0 4em;
+const HeaderText = styled.h1`
+  margin: 5em 1em 0 4em;
   color: #0000009d;
 `;
 
 const Header = () => {
   return (
     <Wrapper id="HomeArea">
-      <H1>Front End Developer</H1>
+      <HeaderText>Front End Developer</HeaderText>
     </Wrapper>
   );
 };

@@ -41,11 +41,9 @@ function App() {
 
   const searchingByInput = (data) => {
     const filteredByInput = allProjects.filter((element) =>
-      element.title.includes(data)
+      element.title.toLowerCase().includes(data)
     );
     setProjects(filteredByInput);
-    // console.log(filteredByInput);
-    // console.log(data);
   };
 
   return (

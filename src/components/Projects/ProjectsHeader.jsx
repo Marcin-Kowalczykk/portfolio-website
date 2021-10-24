@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useRef } from 'react';
 
 import styled from 'styled-components';
 
@@ -48,26 +48,25 @@ const Button = styled.button`
 `;
 
 const ProjectsHeader = ({ filterReact, filterJs, filterAll, onSearch }) => {
-  const [inputProjectValue, setInputProjectsValue] = useState('');
+  const inputRef = useRef();
 
-  const inputSearchHandler = (event) => {
-    setInputProjectsValue(event.target.value);
-
-    onSearch(inputProjectValue);
+  const inputSearchHandler = () => {
+    const enteredTitle = inputRef.current.value.toLowerCase();
+    onSearch(enteredTitle);
   };
 
   return (
     <Wrapper>
       <h1 id="ProjectsArea">Projekty</h1>
-      <section>
+      <form>
         <label htmlFor="search">Szukaj</label>
         <Input
           type="text"
           id="search"
-          value={inputProjectValue}
           onChange={inputSearchHandler}
+          ref={inputRef}
         />
-      </section>
+      </form>
       <FiltersWrapper>
         <Filter>
           <Button onClick={filterAll}>Wszystkie</Button>

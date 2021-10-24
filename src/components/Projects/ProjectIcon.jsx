@@ -9,8 +9,9 @@ const Li = styled.li`
   align-items: center;
   border-radius: 5px;
   background: #ffffffbe;
-  margin: 1em 2em 2em 0;
   padding: 0.5em;
+  margin-top: 1em;
+  margin-right: 1em;
   box-shadow: 3px 2px 2px rgba(0, 0, 0, 0.5);
   transition: box-shadow 150ms ease-in, background 150ms linear;
 

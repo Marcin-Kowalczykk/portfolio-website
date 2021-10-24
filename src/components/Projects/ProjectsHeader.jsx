@@ -16,7 +16,7 @@ const FiltersWrapper = styled.section`
   align-items: center;
   background: #ffffffbe;
   border-radius: 5px;
-  margin: 1em;
+  margin-top: 1em;
 `;
 
 const Filter = styled.p`

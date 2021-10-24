@@ -17,9 +17,10 @@ const Ul = styled.ul`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
   width: 100%;
   list-style: none;
+  padding: 0 1em 0 1em;
+  margin-left: 1em;
 `;
 
 const ProjectsList = ({

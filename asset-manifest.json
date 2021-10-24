@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio-website/static/css/main.5efa6537.chunk.css",
-    "main.js": "/portfolio-website/static/js/main.71d4dc09.chunk.js",
-    "main.js.map": "/portfolio-website/static/js/main.71d4dc09.chunk.js.map",
+    "main.js": "/portfolio-website/static/js/main.2ae0bbd3.chunk.js",
+    "main.js.map": "/portfolio-website/static/js/main.2ae0bbd3.chunk.js.map",
     "runtime-main.js": "/portfolio-website/static/js/runtime-main.1c3a88a2.js",
     "runtime-main.js.map": "/portfolio-website/static/js/runtime-main.1c3a88a2.js.map",
     "static/js/2.33b4a365.chunk.js": "/portfolio-website/static/js/2.33b4a365.chunk.js",
@@ -10,23 +10,23 @@
     "index.html": "/portfolio-website/index.html",
     "static/css/main.5efa6537.chunk.css.map": "/portfolio-website/static/css/main.5efa6537.chunk.css.map",
     "static/js/2.33b4a365.chunk.js.LICENSE.txt": "/portfolio-website/static/js/2.33b4a365.chunk.js.LICENSE.txt",
-    "static/media/AboutMeIMG.51ccea5e.png": "/portfolio-website/static/media/AboutMeIMG.51ccea5e.png",
+    "static/media/AboutMeIMG.03e0394c.png": "/portfolio-website/static/media/AboutMeIMG.03e0394c.png",
     "static/media/App.css": "/portfolio-website/static/media/BestChoiceDemo-Regular.814060da.woff",
-    "static/media/BillSplitter.33cdef50.png": "/portfolio-website/static/media/BillSplitter.33cdef50.png",
-    "static/media/ExpenseApp.49df4ca6.png": "/portfolio-website/static/media/ExpenseApp.49df4ca6.png",
-    "static/media/FilmsApi.920aef9e.png": "/portfolio-website/static/media/FilmsApi.920aef9e.png",
-    "static/media/FoodOrder.1a963882.png": "/portfolio-website/static/media/FoodOrder.1a963882.png",
-    "static/media/Form.f6c5e7fa.png": "/portfolio-website/static/media/Form.f6c5e7fa.png",
-    "static/media/Notes.7b909a30.png": "/portfolio-website/static/media/Notes.7b909a30.png",
-    "static/media/SearchEngine.ed9bc8b0.png": "/portfolio-website/static/media/SearchEngine.ed9bc8b0.png",
-    "static/media/StopWatch.07621393.png": "/portfolio-website/static/media/StopWatch.07621393.png",
-    "static/media/TaskManager.0b989ecc.png": "/portfolio-website/static/media/TaskManager.0b989ecc.png",
-    "static/media/header1.4fb1834b.gif": "/portfolio-website/static/media/header1.4fb1834b.gif"
+    "static/media/BillSplitter.ad60d316.png": "/portfolio-website/static/media/BillSplitter.ad60d316.png",
+    "static/media/ExpenseApp.1bcc94ec.png": "/portfolio-website/static/media/ExpenseApp.1bcc94ec.png",
+    "static/media/FilmsApi.658355ed.png": "/portfolio-website/static/media/FilmsApi.658355ed.png",
+    "static/media/FoodOrder.4cf88148.png": "/portfolio-website/static/media/FoodOrder.4cf88148.png",
+    "static/media/Form.15258ff6.png": "/portfolio-website/static/media/Form.15258ff6.png",
+    "static/media/Notes.ebfacead.png": "/portfolio-website/static/media/Notes.ebfacead.png",
+    "static/media/SearchEngine.f956db37.png": "/portfolio-website/static/media/SearchEngine.f956db37.png",
+    "static/media/StopWatch.c6bc9516.png": "/portfolio-website/static/media/StopWatch.c6bc9516.png",
+    "static/media/TaskManager.c24213be.png": "/portfolio-website/static/media/TaskManager.c24213be.png",
+    "static/media/header1.0597de1f.png": "/portfolio-website/static/media/header1.0597de1f.png"
   },
   "entrypoints": [
     "static/js/runtime-main.1c3a88a2.js",
     "static/js/2.33b4a365.chunk.js",
     "static/css/main.5efa6537.chunk.css",
-    "static/js/main.71d4dc09.chunk.js"
+    "static/js/main.2ae0bbd3.chunk.js"
   ]
 }

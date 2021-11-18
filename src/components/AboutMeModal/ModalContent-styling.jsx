@@ -32,10 +32,11 @@ export const ImgDescArea = styled.div`
 export const TextSection = styled.section`
   width: 50%;
   height: 80%;
+  text-align: justify;
 
   @media (max-width: 720px) {
     width: 90%;
-    font-size: 0.7em;
+    font-size: 0.6em;
   }
 `;
 

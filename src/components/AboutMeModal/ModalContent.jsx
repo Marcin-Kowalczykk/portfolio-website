@@ -1,6 +1,8 @@
 import React from 'react';
 
+import MarcinKowalczykCV from '../data/Marcin-Kowalczyk.pdf';
 import AboutMeIMG from '../data/images/AboutMeIMG.png';
+import { AboutText } from '../data/ProjectsData';
 
 import {
   ContentWrapper,
@@ -21,18 +23,13 @@ const ModalContent = () => {
           <Img src={AboutMeIMG} alt="" width="580" height="620" />
         </section>
         <TextSection>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione iste
-            aperiam cupiditate soluta! Accusamus voluptate, tempore fugit mollitia
-            consequuntur assumenda vel asperiores! Id aspernatur earum laudantium
-            repellendus assumenda, molestiae dicta.
-          </p>
+          <p>{AboutText}</p>
         </TextSection>
       </ImgDescArea>
       <Footer>
         <Button>
           <form action="">
-            <Link href={AboutMeIMG} download="">
+            <Link href={MarcinKowalczykCV} download="">
               <Label htmlFor="download">Pobierz moje CV !</Label>
               <i className="fas fa-download" id="download"></i>
             </Link>

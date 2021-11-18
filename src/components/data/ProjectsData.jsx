@@ -85,3 +85,6 @@ export const ProjectsData = [
     pageLink: 'https://marcin-kowalczykk.github.io/Billsplitter-clear-js-project-/',
   },
 ];
+
+export const AboutText =
+  'Jestem absolwentem kierunku Automatyka i sterowanie robotów na politechnice łódzkiej. W trakcie studiów poznałem podstawy języków programowania takich jak C, C++, Python, Java, html, CSS, JavaScript. Podczas tworzenia projektu, mającego na celu zaimplementowanie sterowania robotem mobilnym wraz z interfejsem użytkownika w postaci strony internetowej zainteresowałem się tematem frontendu. W znacznym stopniu rozszerzyłem swoje umiejętności korzystania z technologi takich jak: html, css, javaScript oraz React.js. Moje doświadczenie przedstawiam w postaci aplikacji znajdujących się na niniejszej stronie internetowej w zakładce "projekty". Moim głównym celem jest poszerzanie wiedzy z zakresu tworzenia stron internetowych oraz dalszy rozwój w tym kierunku.';

@@ -96,7 +96,7 @@ export const Ul = styled.ul`
 
 export const Icons = styled(Ul)`
   flex-direction: ${(props) => (props.isExpand ? 'row' : 'column')};
-  margin: 0.2em 0 0 0.8em;
+  margin: 0.2em 0 0 1.3em;
 `;
 
 export const Li = styled.li`

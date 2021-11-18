@@ -60,17 +60,23 @@ const NavBar = ({ onShowModal }) => {
               </Link>
             </Li>
             <Li>
-              <Link href="" target="__blank">
+              <Link
+                href="https://www.instagram.com/marculek_kowalczyk/"
+                target="__blank"
+              >
                 <i className="fab fa-instagram"></i>
               </Link>
             </Li>
-            <Li>
+            {/* <Li>
               <Link href="" target="__blank">
                 <i className="fab fa-linkedin"></i>
               </Link>
-            </Li>
+            </Li> */}
             <Li>
-              <Link href="" target="__blank">
+              <Link
+                href="https://www.facebook.com/marcin.kowalczyk.1671/"
+                target="__blank"
+              >
                 <i className="fab fa-facebook"></i>
               </Link>
             </Li>
@@ -95,17 +101,23 @@ const NavBar = ({ onShowModal }) => {
               </Link>
             </Li>
             <Li>
-              <Link href="" target="__blank">
+              <Link
+                href="https://www.instagram.com/marculek_kowalczyk/"
+                target="__blank"
+              >
                 <i className="fab fa-instagram"></i>
               </Link>
             </Li>
-            <Li>
+            {/* <Li>
               <Link href="" target="__blank">
                 <i className="fab fa-linkedin"></i>
               </Link>
-            </Li>
+            </Li> */}
             <Li>
-              <Link href="" target="__blank">
+              <Link
+                href="https://www.facebook.com/marcin.kowalczyk.1671/"
+                target="__blank"
+              >
                 <i className="fab fa-facebook"></i>
               </Link>
             </Li>
